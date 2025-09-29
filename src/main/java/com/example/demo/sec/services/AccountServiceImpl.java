@@ -62,7 +62,7 @@ public class AccountServiceImpl implements AccountService {
                 user.getRoles().add(role);
             }
         }
-        
+        user.setActive(true);
         AppUser savedUser = userAppRepository.save(user);
 
 
