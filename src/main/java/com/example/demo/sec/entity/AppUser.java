@@ -42,5 +42,5 @@ public class AppUser {
 
     // Solde du compte (utilisé par l'application mobile)
     // Si la colonne existe déjà en base, elle sera mappée automatiquement
-    private Double solde = 0.0;
+    private Double solde = 1000.0;
 }
